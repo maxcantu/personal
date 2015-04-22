@@ -6,8 +6,7 @@ description: "Lecciones aprendidas mientras hago negocios."
 baseurl: ""
 url: "http://maxcantu.com"
 twitter_username: maxcantu_
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+linkedin_username:  IronSummitMedia
 
 # Build settings
 markdown: kramdown
