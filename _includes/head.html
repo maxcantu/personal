@@ -4,6 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
+    
+	<meta property="og:url" content="http://www.maxcantu.com" /> 
+	<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+	<meta property="og:description" content="Nimbo X es el primer Expediente Clínico Electrónico totalmente gratis para consultorios médicos en México" /> 
+	<meta property="og:image" content="http://www.nimbo-x.com/img/social.png" />
+	<link rel="shortcut icon" href="img/favicon.ico">
 
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
